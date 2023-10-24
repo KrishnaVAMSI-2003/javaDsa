@@ -1,3 +1,4 @@
+//kadane's algoritm
 public class MaximumSubarray {
     public static void maximumSubarray(int[] arr) {
         int sum = arr[0];

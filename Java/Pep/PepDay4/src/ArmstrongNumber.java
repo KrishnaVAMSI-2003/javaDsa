@@ -1,0 +1,2 @@
+// Guvvala Krishna Vamsi,  Reg No: 12008526
+import java.util.Scanner;public class ArmstrongNumber { public static void armstrong() {Scanner sc = new Scanner(System.in);int num = sc.nextInt(), arm=0;for (int i=num;i>0;i/=10) {int rem = i%10;arm += rem*rem*rem;}if(arm==num) {System.out.println("Yes");} else {System.out.println("No");}}}

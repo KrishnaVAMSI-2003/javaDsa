@@ -1,18 +1,18 @@
 import java.util.Arrays;
 
 public class CountSetBits {
-//    public static int countSetBits(int n){
-//        int count = 0;
-//        while(n>0) {
-//            //naive solution O(most significant bit)
-////            count += n&1;
-////            n >>=1;
-//            // Brian Kerningam's algorithm O(no of setBits)
-//            n = n & (n-1); // in n-1 set bit is 0 and the trailing bits are 1's ex: 40:10100  39:10011
-//            count++;
-//        }
-//        return count;
-//    }
+    public static int countSetBits(int n){
+        int count = 0;
+        while(n>0) {
+            //naive solution O(most significant bit)
+//            count += n&1;
+//            n >>=1;
+            // Brian Kerningam's algorithm O(no of setBits)
+            n = n & (n-1); // in n-1 set bit is 0 and the trailing bits are 1's ex: 40:10100  39:10011
+            count++;
+        }
+        return count;
+    }
 
     //lookup table solution
     int[] tbl = new int[256];

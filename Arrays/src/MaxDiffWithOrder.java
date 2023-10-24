@@ -10,7 +10,7 @@ public class MaxDiffWithOrder {
     }
     public static void main(String[] args) {
         //int[] arr = {2, 3, 10, 6, 4, 8, 1};
-        int[] arr = {7, 9, 5, 6, 3, 2};
+        int[] arr = {7,1,5,3,6,4};
         System.out.println(maxDiffWithOrder(arr));
     }
 }

@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         //boolean setBit = KthBitIsSetOrNot obj = new KthBitIsSetOrNot();
-        //int count = CountSetBits.countSetBits(11);
+        int count = CountSetBits.countSetBits(11);
         //CountSetBits obj = new CountSetBits();
         //PowerOf2 obj = new PowerOf2();
 
